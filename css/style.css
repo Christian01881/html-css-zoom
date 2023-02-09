@@ -43,26 +43,41 @@ body{
     right: 8px;
 }
 
-.debug{
-    border: 1px solid white;
-}
-
-
-
-
 /* Main */
 .container{
-    width: 93vw;
+    width: 83vw;
     margin: auto;
     height: 80vh;
+    color: var(--font);
 }
 
+  .card{
+    width: calc((100% / 7) - 5px); 
+    padding: 0 4px 4px 4px;
+    position: relative;
+}  
 
 
+img{
+    width: 100%;
+}
 
+.d-flex{
+    display: flex;
+}
 
+.flex-i{
+    flex-flow: row wrap;
+    justify-content: center ;
+}
 
-
+.pop{
+    position: absolute;
+    left: 4px;
+    bottom: 8px;
+    background-color: #363536;
+    padding: 2px 3px;
+}
 
 /* Footer */
 footer{
