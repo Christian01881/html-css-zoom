@@ -17,7 +17,7 @@
 
 /* Header */
 header{
- height: 10vh;
+ height: 70px;
  color: var(--font);
  font-size: 13px;
 }
@@ -45,10 +45,11 @@ body{
 
 /* Main */
 .container{
-    width: 83vw;
+    width: 100%;
+    height: calc(100vh - 150px);
     margin: auto;
-    height: 80vh;
     color: var(--font);
+    overflow: auto;
 }
 
   .card{
@@ -57,9 +58,9 @@ body{
     position: relative;
 }  
 
-
 img{
     width: 100%;
+    display: block;
 }
 
 .d-flex{
@@ -81,6 +82,53 @@ img{
 
 /* Footer */
 footer{
-    height: 10vh;
+    height: 80px;
     background-color: var(--bg-footer);
+    color: var(--font);
 }
+
+.font-s{
+    font-size: 25px;
+}
+
+.p-left{
+    padding-left: 10px;
+}
+
+.p-top{
+    padding-top: 15px;
+}
+
+.button-flex{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chevron-s{
+    font-size: 10px;
+}
+
+.share{
+    color: var(--share);
+}
+
+.end{
+    background-color: var(--grey);
+    color: var(--end);
+    padding: 23px;
+}
+
+.i-center{
+    padding-left: 30px;
+}
+
+.p-center{
+    padding-left: 15px;
+}
+
+.h-center{
+    padding-left: 40px;
+}
+
+
+
